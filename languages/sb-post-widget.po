@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sb-post-widget\n"
+"POT-Creation-Date: 2014-09-28 16:55+0700\n"
+"PO-Revision-Date: 2014-09-28 16:55+0700\n"
+"Last-Translator: SB Team <laidinhcuongvn@gmail.com>\n"
+"Language-Team: SB Team <laidinhcuongvn@gmail.com>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/class-sb-post-widget.php:22
+msgid "Show custom post on sidebar."
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:34
+msgid "New posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:35
+msgid "Random posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:36
+msgid "Most comment posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:37
+msgid "Most view posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:38
+msgid "Most like posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:39
+msgid "Post by category"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:40
+msgid "Favorite posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:46
+msgid "DESC"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:47
+msgid "ASC"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:53
+msgid "Title"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:54
+msgid "Post date"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:216
+msgid "Title:"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:225
+msgid "Post number:"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:226
+msgid "The number of posts to be displayed."
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:236
+msgid "Get post by:"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:239
+msgid "Choose the way you want to get post."
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:251
+msgid "Choose category"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:266
+msgid "Show only thumbnail"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:278
+msgid "Image size"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:288
+msgid "Show excerpt"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:298
+msgid "Excerpt length"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:309
+msgid "Title length"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:320
+msgid "Order by"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:331
+msgid "Order type"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:354
+msgid "Show author"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:364
+msgid "Show date"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:373
+msgid "Show comment count"
+msgstr ""
+
+#: ../inc/sb-plugin-admin.php:14
+msgid "SB Post Widget options page"
+msgstr ""
+
+#: ../inc/sb-plugin-admin.php:15
+msgid "No thumbnail image"
+msgstr ""
+
+#: ../inc/sb-plugin-admin.php:24
+msgid "You can enter url or upload new image file."
+msgstr ""
+
+#: ../inc/sb-plugin-functions.php:22
+#, php-format
+msgid "You must install plugin %1$s first! Click here to %2$s."
+msgstr ""
+
+#: ../inc/sb-plugin-functions.php:22
+msgid "go back"
+msgstr ""
+
+#: ../inc/sb-plugin-functions.php:30
+msgid "Settings"
+msgstr ""
