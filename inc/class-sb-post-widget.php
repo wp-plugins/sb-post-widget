@@ -1,6 +1,4 @@
 <?php
-if ( ! defined( 'ABSPATH' ) ) exit;
-
 class SB_Post_Widget extends WP_Widget {
 	public $types = array();
 	private $order_by = array();

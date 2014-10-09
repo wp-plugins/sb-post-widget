@@ -1,6 +1,4 @@
 <?php
-defined('ABSPATH') OR exit;
-
 function sb_post_widget_check_core() {
     $activated_plugins = get_option('active_plugins');
 

@@ -4,7 +4,7 @@ Donate link: http://hocwp.net/donate/
 Tags: sb, sb plugin, sb post, sb post widget, widget
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,7 +38,7 @@ SB Post Widget is a plugin that allows to show custom post on sidebar. You can s
 
 == Installation ==
 
-Upload the SB Clean plugin to your blog, activate it.
+Upload the SB Post Widget plugin to your blog, activate it.
 
 1, 2, 3: You're done!
 
@@ -57,6 +57,9 @@ Please visit [homepage](http://hocwp.net) for more details.
 Please update SB Core before you upgrade SB Post Widget to new version.
 
 == Changelog ==
+
+= V1.0.1 =
+* Update: Move the post thumbnail function from SB Core class to SB Post class.
 
 = V1.0.0 =
 First release of SB Post Widget.
