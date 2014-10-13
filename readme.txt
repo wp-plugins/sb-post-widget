@@ -4,7 +4,7 @@ Donate link: http://hocwp.net/donate/
 Tags: sb, sb plugin, sb post, sb post widget, widget
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,16 +31,19 @@ SB Post Widget is a plugin that allows to show custom post on sidebar. You can s
 
 **Recommended WordPress Plugins**
 
-* [SB TBFA](https://wordpress.org/plugins/sb-tbfa/)
 * [SB Clean](https://wordpress.org/plugins/sb-clean/)
 * [SB Comment](https://wordpress.org/plugins/sb-comment/)
 * [SB Paginate](https://wordpress.org/plugins/sb-paginate/)
+* [SB Tab Widget](https://wordpress.org/plugins/sb-tab-widget/)
+* [SB TBFA](https://wordpress.org/plugins/sb-tbfa/)
 
 == Installation ==
 
-Upload the SB Post Widget plugin to your blog, activate it.
+Install this plugin from your WordPress site Dashboard or follow these steps below:
 
-1, 2, 3: You're done!
+1. Download plugin from WordPress Plugins directory and extract it.
+1. Upload the `sb-post-widget` folder to the `/wp-content/plugins/` directory.
+1. Activate the SB Post Widget plugin through the 'Plugins' menu in WordPress.
 
 Go to the dashboard and access widgets page, drag and drop SB Post into the widget area where you want the list posts to be displayed.
 
@@ -58,8 +61,11 @@ Please update SB Core before you upgrade SB Post Widget to new version.
 
 == Changelog ==
 
-= V1.0.1 =
+= 1.0.2 =
+* Update: Update new admin folder.
+
+= 1.0.1 =
 * Update: Move the post thumbnail function from SB Core class to SB Post class.
 
-= V1.0.0 =
+= 1.0.0 =
 First release of SB Post Widget.
