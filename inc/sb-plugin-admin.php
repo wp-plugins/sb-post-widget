@@ -19,8 +19,13 @@ add_action('sb_admin_init', 'sb_post_widget_setting_field');
 function sb_post_widget_no_thumbnail_callback() {
     $id = 'sb_post_widget_no_thumbnail';
     $name = 'sb_options[post_widget][no_thumbnail]';
-    $options = SB_Option::get();
-    $value = isset($options['post_widget']['no_thumbnail']) ? $options['post_widget']['no_thumbnail'] : '';
+    $value = SB_Option::get_widget_thumbnail_url();
     $description = __('You can enter url or upload new image file.', 'sb-post-widget');
-    SB_Field::media_image($id, $name, $value, $description);
+    $args = array(
+        'id' => $id,
+        'name' => $name,
+        'value' => $value,
+        'description' => $description
+    );
+    SB_Field::media_image($args);
 }

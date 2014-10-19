@@ -1,9 +1,7 @@
 <?php
 function sb_post_widget_check_core() {
     $activated_plugins = get_option('active_plugins');
-
     $sb_core_installed = in_array('sb-core/sb-core.php', $activated_plugins);
-
     if(!$sb_core_installed) {
         $sb_plugins = array(SB_POST_WIDGET_BASENAME);
         $activated_plugins = get_option('active_plugins');
@@ -13,15 +11,17 @@ function sb_post_widget_check_core() {
     return $sb_core_installed;
 }
 
-sb_post_widget_check_core();
-
 function sb_post_widget_activation() {
     if(!sb_post_widget_check_core()) {
-        wp_die(sprintf(__('You must install plugin %1$s first! Click here to %2$s.', 'sb-post-widget'), '<a href="https://wordpress.org/plugins/sb-core/">SB Core</a>', sprintf('<a href="%1$s">%2$s</a>', admin_url('plugins.php'), __('go back', 'sb-post-widget'))));
+        wp_die(sprintf(__('You must install and activate plugin %1$s first! Click here to %2$s.', 'sb-post-widget'), '<a href="https://wordpress.org/plugins/sb-core/">SB Core</a>', sprintf('<a href="%1$s">%2$s</a>', admin_url('plugins.php'), __('go back', 'sb-post-widget'))));
     }
     do_action('sb_post_widget_activation');
 }
 register_activation_hook(SB_POST_WIDGET_FILE, 'sb_post_widget_activation');
+
+if(!sb_post_widget_check_core()) {
+    return;
+}
 
 function sb_post_widget_settings_link($links) {
     if(sb_post_widget_check_core()) {
