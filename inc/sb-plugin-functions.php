@@ -1,5 +1,16 @@
 <?php
 function sb_post_widget_check_core() {
+    $user_deactivate_sb_core = false;
+    $sb_core_activated = intval(get_option('sb_core_activated'));
+    if($sb_core_activated == 0) {
+        $caller = get_option('sb_core_deactivated_caller');
+        if('user' == $caller) {
+            $user_deactivate_sb_core = true;
+        }
+    }
+    if(is_admin() && !$user_deactivate_sb_core) {
+        return true;
+    }
     $activated_plugins = get_option('active_plugins');
     $sb_core_installed = in_array('sb-core/sb-core.php', $activated_plugins);
     if(!$sb_core_installed) {
