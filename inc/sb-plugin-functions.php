@@ -62,7 +62,7 @@ add_action('wp_enqueue_scripts', 'sb_post_widget_style_and_script');
 function sb_post_widget_admin_style_and_script() {
     $screen = get_current_screen();
     if ( 'widgets' == $screen->base ) {
-        wp_register_script('sb-post-widget', SB_POST_WIDGET_URL . '/js/sb-post-widget-script.js', array('jquery'), false, true);
+        wp_register_script('sb-post-widget', SB_POST_WIDGET_URL . '/js/sb-post-widget-admin-script.js', array('jquery'), false, true);
         wp_enqueue_script('sb-post-widget');
     }
 }

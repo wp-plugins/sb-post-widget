@@ -4,7 +4,7 @@ Donate link: http://hocwp.net/donate/
 Tags: sb, sb plugin, sb post, sb post widget, widget
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,6 +62,10 @@ Please visit [homepage](http://hocwp.net) for more details.
 Please update SB Core before you upgrade SB Post Widget to new version.
 
 == Changelog ==
+
+= 1.0.5 =
+* Check if blog supports post views, post likes and favorite posts.
+* Support custom post widget on widget.
 
 = 1.0.4 =
 Update check core function.
