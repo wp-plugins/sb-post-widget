@@ -4,7 +4,7 @@ Donate link: http://hocwp.net/donate/
 Tags: sb, sb plugin, sb post, sb post widget, widget
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,8 +34,8 @@ SB Post Widget is a plugin that allows to show custom post on sidebar. You can s
 * [SB Banner Widget](https://wordpress.org/plugins/sb-banner-widget/)
 * [SB Clean](https://wordpress.org/plugins/sb-clean/)
 * [SB Comment](https://wordpress.org/plugins/sb-comment/)
-* [SB Paginate](https://wordpress.org/plugins/sb-paginate/)
 * [SB Login Page](https://wordpress.org/plugins/sb-login-page/)
+* [SB Paginate](https://wordpress.org/plugins/sb-paginate/)
 * [SB Tab Widget](https://wordpress.org/plugins/sb-tab-widget/)
 * [SB TBFA](https://wordpress.org/plugins/sb-tbfa/)
 
@@ -62,6 +62,9 @@ Please visit [homepage](http://hocwp.net) for more details.
 Please update SB Core before you upgrade SB Post Widget to new version.
 
 == Changelog ==
+
+= 1.0.7 =
+Update functions to show post title with exact length.
 
 = 1.0.6 =
 Update new check core functions.

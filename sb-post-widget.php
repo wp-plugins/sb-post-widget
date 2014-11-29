@@ -4,7 +4,7 @@ Plugin Name: SB Post Widget
 Plugin URI: http://hocwp.net/
 Description: SB Post Widget is a plugin that allows to show custom post on sidebar.
 Author: SB Team
-Version: 1.0.6
+Version: 1.0.7
 Author URI: http://hocwp.net/
 Text Domain: sb-post-widget
 Domain Path: /languages/

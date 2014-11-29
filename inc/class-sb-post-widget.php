@@ -219,7 +219,7 @@ class SB_Post_Widget extends WP_Widget {
                             <li class="<?php echo $post_class; ?>">
                                 <?php SB_Post::the_thumbnail_html(array('size' => $thumbnail_size, 'post_id' => get_the_ID())); ?>
                                 <?php if(!$only_thumbnail) : ?>
-                                    <h3 class='post-title'><a href='<?php the_permalink(); ?>'><?php the_title(); ?></a></h3>
+                                    <h3 class='post-title'><a href='<?php the_permalink(); ?>'><?php echo SB_PHP::substr(get_the_title(), $title_length); ?></a></h3>
                                     <?php if((bool)$show_excerpt) : ?>
                                         <p class="excerpt"><?php echo SB_PHP::substr(get_the_excerpt(), $excerpt_length); ?></p>
                                     <?php endif; ?>
