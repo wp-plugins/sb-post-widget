@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sb-post-widget\n"
-"POT-Creation-Date: 2014-09-28 16:55+0700\n"
-"PO-Revision-Date: 2014-09-28 16:55+0700\n"
+"POT-Creation-Date: 2015-01-17 09:13+0700\n"
+"PO-Revision-Date: 2015-01-17 09:13+0700\n"
 "Last-Translator: SB Team <laidinhcuongvn@gmail.com>\n"
 "Language-Team: SB Team <laidinhcuongvn@gmail.com>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -17,115 +17,171 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../inc/class-sb-post-widget.php:22
+#: ../inc/class-sb-post-widget.php:24
 msgid "Show custom post on sidebar."
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:34
-msgid "New posts"
-msgstr ""
-
-#: ../inc/class-sb-post-widget.php:35
-msgid "Random posts"
-msgstr ""
-
 #: ../inc/class-sb-post-widget.php:36
-msgid "Most comment posts"
+msgid "All times"
 msgstr ""
 
 #: ../inc/class-sb-post-widget.php:37
-msgid "Most view posts"
+msgid "Daily"
 msgstr ""
 
 #: ../inc/class-sb-post-widget.php:38
-msgid "Most like posts"
+msgid "Weekly"
 msgstr ""
 
 #: ../inc/class-sb-post-widget.php:39
-msgid "Post by category"
+msgid "Monthly"
 msgstr ""
 
 #: ../inc/class-sb-post-widget.php:40
-msgid "Favorite posts"
+msgid "Yearly"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:45
+msgid "Recent posts"
 msgstr ""
 
 #: ../inc/class-sb-post-widget.php:46
-msgid "DESC"
+msgid "Random posts"
 msgstr ""
 
 #: ../inc/class-sb-post-widget.php:47
+msgid "Most comment posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:48
+msgid "Post by category"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:52
+msgid "Most like posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:56
+msgid "Most view posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:60
+msgid "Favorite posts"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:66
+msgid "DESC"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:67
 msgid "ASC"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:53
+#: ../inc/class-sb-post-widget.php:73
 msgid "Title"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:54
+#: ../inc/class-sb-post-widget.php:74
 msgid "Post date"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:216
-msgid "Title:"
+#: ../inc/class-sb-post-widget.php:290
+msgid "Post type:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:225
+#: ../inc/class-sb-post-widget.php:299
 msgid "Post number:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:226
+#: ../inc/class-sb-post-widget.php:300
 msgid "The number of posts to be displayed."
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:236
+#: ../inc/class-sb-post-widget.php:310
 msgid "Get post by:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:239
+#: ../inc/class-sb-post-widget.php:313
 msgid "Choose the way you want to get post."
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:251
-msgid "Choose category"
+#: ../inc/class-sb-post-widget.php:328
+msgid "Choose category:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:266
-msgid "Show only thumbnail"
+#: ../inc/class-sb-post-widget.php:343
+msgid "Post range:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:278
-msgid "Image size"
+#: ../inc/class-sb-post-widget.php:355
+msgid "Image size:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:288
+#: ../inc/class-sb-post-widget.php:366
+msgid "Title length:"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:376
 msgid "Show excerpt"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:298
-msgid "Excerpt length"
+#: ../inc/class-sb-post-widget.php:389
+msgid "Excerpt length:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:309
-msgid "Title length"
+#: ../inc/class-sb-post-widget.php:399
+msgid "Order by:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:320
-msgid "Order by"
+#: ../inc/class-sb-post-widget.php:410
+msgid "Order type:"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:331
-msgid "Order type"
+#: ../inc/class-sb-post-widget.php:418
+msgid "Thumbnail"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:354
+#: ../inc/class-sb-post-widget.php:424
+msgid "Post information"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:431
+msgid "Display"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:443
+msgid "Show only thumbnail"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:452
+msgid "Do not show thumbnail"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:460
+msgid "First post full width"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:461
+msgid "Last post full width"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:462
+msgid "First and last post full width"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:463
+msgid "All post full width"
+msgstr ""
+
+#: ../inc/class-sb-post-widget.php:478
 msgid "Show author"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:364
+#: ../inc/class-sb-post-widget.php:487
 msgid "Show date"
 msgstr ""
 
-#: ../inc/class-sb-post-widget.php:373
+#: ../inc/class-sb-post-widget.php:496
 msgid "Show comment count"
 msgstr ""
 
@@ -137,19 +193,47 @@ msgstr ""
 msgid "No thumbnail image"
 msgstr ""
 
-#: ../inc/sb-plugin-admin.php:24
+#: ../inc/sb-plugin-admin.php:23
 msgid "You can enter url or upload new image file."
 msgstr ""
 
-#: ../inc/sb-plugin-functions.php:22
+#: ../inc/sb-plugin-install.php:19
+msgid "Error"
+msgstr ""
+
+#: ../inc/sb-plugin-install.php:19
 #, php-format
-msgid "You must install plugin %1$s first! Click here to %2$s."
+msgid ""
+"The plugin with name %1$s has been deactivated because of missing %2$s plugin"
 msgstr ""
 
-#: ../inc/sb-plugin-functions.php:22
-msgid "go back"
-msgstr ""
-
-#: ../inc/sb-plugin-functions.php:30
+#: ../inc/sb-plugin-install.php:29
 msgid "Settings"
+msgstr ""
+
+#: ../lib/bfi-thumb/BFI_Thumb.php:145
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: ../lib/bfi-thumb/BFI_Thumb.php:273
+msgid "Image rotate failed."
+msgstr ""
+
+#: ../lib/bfi-thumb/BFI_Thumb.php:296
+msgid "Image opacity change failed."
+msgstr ""
+
+#: ../lib/bfi-thumb/BFI_Thumb.php:383
+msgid "Image color change failed."
+msgstr ""
+
+#: ../lib/bfi-thumb/BFI_Thumb.php:400
+msgid "Image grayscale failed."
+msgstr ""
+
+#: ../lib/bfi-thumb/BFI_Thumb.php:417
+msgid "Image negate failed."
 msgstr ""

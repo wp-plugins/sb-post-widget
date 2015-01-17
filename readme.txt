@@ -3,8 +3,8 @@ Contributors: skylarkcob
 Donate link: http://hocwp.net/donate/
 Tags: sb, sb plugin, sb post, sb post widget, widget
 Requires at least: 3.9
-Tested up to: 4.0
-Stable tag: 1.0.7
+Tested up to: 4.1
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,13 +55,19 @@ Please visit [homepage](http://hocwp.net) for more details.
 
 == Screenshots ==
 
-Please visit [homepage](http://hocwp.net) for more details.
+1. SB Post widget on widget area.
+2. Widget displays on website.
 
 == Upgrade Notice ==
 
 Please update SB Core before you upgrade SB Post Widget to new version.
 
 == Changelog ==
+
+= 1.0.8 =
+* Tested up to WordPress 4.1 version.
+* Re-struct SB Post Widget
+* Add screenshots.
 
 = 1.0.7 =
 Update functions to show post title with exact length.
